@@ -15,6 +15,8 @@ class _SplashScreenState extends State<SplashScreen> {
       floatingActionButton: FloatingActionButton(
         onPressed: () {
           throw InternetException('Connection');
+          // testing the git configuration line 1.
+          // testing the git configuration line 2.
         },
       ),
     );
